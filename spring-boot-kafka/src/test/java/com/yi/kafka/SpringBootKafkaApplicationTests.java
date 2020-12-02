@@ -17,8 +17,8 @@ public class SpringBootKafkaApplicationTests {
     @Test
     public void test1() {
 
-        kafkaProducer.sendMessage("topic-1", "topic--------1");
-        kafkaProducer.sendMessage("topic-2", "topic--------2");
+        kafkaProducer.sendMessage("topic-1", "topic----data----1");
+        kafkaProducer.sendMessage("topic-2", "topic----data----2");
     }
 
 }
